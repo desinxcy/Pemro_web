@@ -52,6 +52,7 @@ $result = mysqli_query($conn, $query);
                                     <td class="text-center">
                                         <div class="btn-group">
                                             <button type="button" class="btn btn-sm btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Aksi
                                             </button>
                                             <ul class="dropdown-menu dropdown-menu-end">
                                                 <li>
@@ -87,5 +88,3 @@ $result = mysqli_query($conn, $query);
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
-
-
