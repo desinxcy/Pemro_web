@@ -38,7 +38,7 @@ $result = mysqli_query($conn, $query);
                             <th>Kategori</th>
                             <th>Pemasok</th>
                             <th>Jumlah</th>
-                            <th style="width: 120px;">Aksi</th>
+                            <th style="width: 160px;">Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -50,25 +50,14 @@ $result = mysqli_query($conn, $query);
                                     <td><?= htmlspecialchars($row['supplier_name'] ?? '-') ?></td>
                                     <td class="text-center"><?= htmlspecialchars($row['quantity']) ?></td>
                                     <td class="text-center">
-                                        <div class="btn-group">
-                                            <button type="button" class="btn btn-sm btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                                Aksi
-                                            </button>
-                                            <ul class="dropdown-menu dropdown-menu-end">
-                                                <li>
-                                                    <a class="dropdown-item" href="item_edit.php?id=<?= $row['id'] ?>">
-                                                        <i class="bi bi-pencil-square me-1"></i> Edit
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item text-danger" 
-                                                       href="item_delete.php?id=<?= $row['id'] ?>" 
-                                                       onclick="return confirm('Yakin ingin menghapus?');">
-                                                        <i class="bi bi-trash me-1"></i> Hapus
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                        <a href="item_edit.php?id=<?= $row['id'] ?>" class="btn btn-sm btn-warning me-1">
+                                            <i class="bi bi-pencil-square"></i> Edit
+                                        </a>
+                                        <a href="item_delete.php?id=<?= $row['id'] ?>" 
+                                           class="btn btn-sm btn-danger" 
+                                           onclick="return confirm('Yakin ingin menghapus?');">
+                                            <i class="bi bi-trash"></i> Hapus
+                                        </a>
                                     </td>
                                 </tr>
                             <?php endwhile; ?>
@@ -84,7 +73,7 @@ $result = mysqli_query($conn, $query);
     </div>
 </div>
 
-<!-- Bootstrap JS (wajib untuk dropdown bekerja) -->
+<!-- Bootstrap JS (wajib untuk komponen interaktif seperti tombol) -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
