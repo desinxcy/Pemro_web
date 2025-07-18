@@ -15,14 +15,15 @@ Aplikasi ini dirancang untuk membantu pencatatan dan pengelolaan stok barang mas
 
 - __Staff__
   Username: <span style="color: #e47e3aff;">regi</span>
-  Password: <span style="color: #e47e3aff;">staff</span>
+  Password: <span style="color: #e47e3aff;">1234</span>
 
 
 ## 📂Project File
-- Salin [folder src](https://github.com/desinxcy/projectUasPemrograman/tree/src) ke direktori htdocs dan beri nama _guda_
+- Salin [folder src](https://github.com/desinxcy/projectUasPemrograman/tree/src) ke direktori htdocs dan beri nama _guda_ 
 ```
 xampp\htdocs\guda
 ```
+
 - Download file [guda.sql](https://github.com/desinxcy/projectUasPemrograman)
 
 ## 🖥️ Lokal Server
