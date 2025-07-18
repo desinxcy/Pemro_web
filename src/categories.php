@@ -20,7 +20,7 @@ $result = mysqli_query($conn, "SELECT * FROM categories");
                     <thead class="table-dark text-center">
                         <tr>
                             <th>Nama Kategori</th>
-                            <th style="width: 150px;">Aksi</th>
+                            <th style="width: 160px;">Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -29,25 +29,14 @@ $result = mysqli_query($conn, "SELECT * FROM categories");
                                 <tr>
                                     <td><?= htmlspecialchars($row['name']) ?></td>
                                     <td class="text-center">
-                                        <!-- Dropdown Aksi -->
-                                        <div class="dropdown">
-                                            <button class="btn btn-sm btn-secondary dropdown-toggle" type="button"
-                                                    id="aksiMenu<?= $row['id'] ?>" data-bs-toggle="dropdown" aria-expanded="false">
-                                            </button>
-                                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="aksiMenu<?= $row['id'] ?>">
-                                                <li>
-                                                    <a class="dropdown-item" href="category_edit.php?id=<?= $row['id'] ?>">
-                                                        <i class="bi bi-pencil-square me-1"></i> Edit
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a class="dropdown-item text-danger" href="category_delete.php?id=<?= $row['id'] ?>"
-                                                       onclick="return confirm('Hapus data ini?');">
-                                                        <i class="bi bi-trash me-1"></i> Hapus
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                                        <a href="category_edit.php?id=<?= $row['id'] ?>" class="btn btn-sm btn-warning me-1">
+                                            <i class="bi bi-pencil-square"></i> Edit
+                                        </a>
+                                        <a href="category_delete.php?id=<?= $row['id'] ?>" 
+                                           class="btn btn-sm btn-danger" 
+                                           onclick="return confirm('Hapus data ini?');">
+                                            <i class="bi bi-trash"></i> Hapus
+                                        </a>
                                     </td>
                                 </tr>
                             <?php endwhile; ?>
@@ -62,6 +51,8 @@ $result = mysqli_query($conn, "SELECT * FROM categories");
         </div>
     </div>
 </div>
+
+<!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
