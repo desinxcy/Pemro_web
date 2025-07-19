@@ -37,7 +37,7 @@ xampp\htdocs\guda
 ```
   http://localhost/phpmyadmin
 ```
-- Ekspor file __guda.sql__ untuk membuat database
+- Import file __guda.sql__ untuk membuat database
 ## 🧩Skema Alur Penggunaan
 
 klik link ini untuk melihat [Penjelasan lebih lengkap tentang cara penggunaan](https://github.com/desinxcy/Pemro_web/blob/main/docs/caraPenggunaan.md)
