@@ -1,6 +1,8 @@
 # Gudang Penyimpanan
 ---
 Aplikasi ini dirancang untuk membantu pencatatan dan pengelolaan stok barang masuk dan keluar dari gudang.
+## Youtube
+- [link youtube](https://youtu.be/NvdsuokticE)
 ## 💻 Sistem
 
 1. XAMPP: versi 3.3.0
