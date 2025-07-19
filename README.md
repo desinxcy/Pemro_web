@@ -24,7 +24,7 @@ Aplikasi ini dirancang untuk membantu pencatatan dan pengelolaan stok barang mas
 xampp\htdocs\guda
 ```
 
-- Salin file [guda.sql](https://github.com/desinxcy/Pemro_web/blob/main/sql/guda.sql)
+- Download file [guda.sql](https://raw.githubusercontent.com/desinxcy/Pemro_web/main/sql/guda.sql)
 
 ## 🖥️ Lokal Server
 
