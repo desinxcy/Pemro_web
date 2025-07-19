@@ -25,6 +25,7 @@ xampp\htdocs\guda
 ```
 
 - Download file [guda.sql](https://raw.githubusercontent.com/desinxcy/Pemro_web/main/sql/guda.sql)
+- kemudian klik tombol "ctrl + s" untuk menyimpan file
 
 ## 🖥️ Lokal Server
 
