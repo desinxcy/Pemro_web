@@ -1,11 +1,11 @@
 # Gudang Penyimpanan
 ---
 Aplikasi ini dirancang untuk membantu pencatatan dan pengelolaan stok barang masuk dan keluar dari gudang.
-url webiste gudang 
+## 🌐 url webiste 
 ```
 https://rivaldi.mangaverse.my.id/
 ```
-## Youtube
+## 📺 Youtube
 - [link youtube](https://youtu.be/NvdsuokticE)
 
 ## 💻 Sistem
@@ -17,7 +17,7 @@ https://rivaldi.mangaverse.my.id/
 
 ## 🔑Akses Login
 - __Admin__
-  Username: <span style="color: #e47e3aff;">remi</span>
+  Username: <span style="color: #e47e3aff;">admin</span>
   Password: <span style="color: #e47e3aff;">admin</span>
 
 - __Staff__
