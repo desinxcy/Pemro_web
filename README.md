@@ -6,8 +6,9 @@ Aplikasi ini dirancang untuk membantu pencatatan dan pengelolaan stok barang mas
 https://rivaldi.mangaverse.my.id/
 ```
 ## 📺 Youtube
-- [link youtube](https://youtu.be/NvdsuokticE)
-
+```
+- https://youtu.be/NvdsuokticE
+```
 ## 💻 Sistem
 
 1. XAMPP: versi 3.3.0
