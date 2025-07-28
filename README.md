@@ -7,7 +7,7 @@ https://rivaldi.mangaverse.my.id/
 ```
 ## 📺 Youtube
 ```
-- https://youtu.be/NvdsuokticE
+https://youtu.be/NvdsuokticE
 ```
 ## 💻 Sistem
 
